@@ -1,0 +1,10 @@
+.buttons a:hover {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.buttons a:hover:after {
+  width: 150%;
+  left: -10px;
+  transform-origin: left;
+}
